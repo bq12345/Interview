@@ -11,10 +11,9 @@ public class BinarySearch {
 
 	public static void main(String[] args) {
 		int[] a = { 0, 1, 5, 13, 24, 51, 63, 71, 85, 90 };
-		int result = binarySearch(a, 51);
+		int result = binarySearch(a, 50);
 		System.out.println(result);
 	}
-
 	/**
 	 * 对已经排好序的数组进行二分法查找
 	 */
